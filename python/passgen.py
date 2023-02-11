@@ -1,15 +1,15 @@
 # password generator 
 # choose lenght of password
 # can use multiples of these: lowercase, uppercase, numbers and symbols
+
 import random
+
 def passwdgen():
     upcase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     lowcase = upcase.lower()
     digits = "0123456789"
     symbols = "()[],;:.-_/\\?+*&^%$#@!"
 
-    #upper, lower, nums, symb = True, True, True, True
-    
     all = ""
 
     # user gives input that is compared to conditions and set according to user input
