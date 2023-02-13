@@ -2,11 +2,13 @@
 # converts lowercase to uppercase 
 alph = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
+# checks character index of given string, converts it to lowercase
 def charsAQ(charstoConv):
     lowerChars = charstoConv.lower()
     convertedStr = alph.index(lowerChars)
     return convertedStr
 
+#convets a string to list using literal magic
 def stringToList(string):
     list1 = []
     list1[:0] = string.replace(" ", "")
