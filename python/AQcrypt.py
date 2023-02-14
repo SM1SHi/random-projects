@@ -22,5 +22,6 @@ def AQmain():
     result = list(map(charsAQ, convertedWords))
     sumElements = sum(result)
     print(sumElements)
+    AQmain()
 
 AQmain()
