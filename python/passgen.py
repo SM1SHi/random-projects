@@ -29,7 +29,7 @@ def passwdgen():
         all = all + symbols
 
     passlen = int(input("Please enter the lenght of the password you wish to generate: "))
-    password = "".join(random.sample(all, passlen))
+    password = "".join(random.choices(all, passlen))
     print(password)
 
 passwdgen()
